@@ -41,3 +41,7 @@ ScrollReveal().reveal(".order__card", {
 ScrollReveal().reveal(".event__content", {
   duration: 1000,
 });
+
+function makeCall() {
+  window.location.href = 'tel:+40771428428'; // Replace with the desired phone number
+}
