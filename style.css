@@ -278,7 +278,7 @@ nav {
 ul {
   list-style-type: none;
   margin: 5px; 
-  padding: 5px; 
+  padding: 35px; 
 }
 
 .order__card p {
@@ -398,6 +398,13 @@ ul {
   background-color: var(--text-dark);
 }
 
+.btn {
+    position: absolute;
+    bottom: 0; /* Așează butonul la baza containerului */
+    left: 0;
+    width: 100%; /* Dacă vrei ca butonul să ocupe întreaga lățime */
+}
+}
 /*Splash Screen*/
 
 .intro{
@@ -443,6 +450,11 @@ ul {
 .white-svg {
   filter: brightness(0) invert(1);
 }
+
+.span{
+  padding: 10px;
+}
+
 
 @media (width > 540px) {
   .banner__container {
